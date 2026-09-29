@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Валерия — веб-разработчик</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Manrope:wght@400;500;600;700&family=Unbounded:wght@700;800&family=Playfair+Display:wght@700&family=Caveat:wght@600&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='48' fill='%23D9A441'/%3E%3Cpath d='M50 2 A48 48 0 0 1 50 98 Z' fill='%23BB4D2E'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <div class="preloader" data-preloader aria-hidden="true">
+    <span class="preloader__mark"></span>
+  </div>
+
+  <header class="sidebar" data-sidebar>
+    <div class="sidebar__inner">
+
+      <a href="#hero" class="sidebar__logo" data-nav-link-close>
+        <span class="sidebar__logo-mark" aria-hidden="true"></span>
+        <span class="sidebar__logo-text">В.Л.</span>
+      </a>
+
+      <button class="sidebar__burger" type="button" data-menu-toggle aria-label="Открыть меню" aria-expanded="false">
+        <span class="sidebar__burger-line"></span>
+        <span class="sidebar__burger-line"></span>
+        <span class="sidebar__burger-line"></span>
+      </button>
+
+      <nav class="sidebar__nav" data-nav>
+        <ul class="sidebar__nav-list" data-nav-list>
+          <li class="sidebar__nav-item">
+            <a href="#hero" class="sidebar__nav-link" data-nav-link data-target="hero">Главная</a>
+          </li>
+          <li class="sidebar__nav-item">
+            <a href="#about" class="sidebar__nav-link" data-nav-link data-target="about">Обо мне</a>
+          </li>
+          <li class="sidebar__nav-item">
+            <a href="#projects" class="sidebar__nav-link" data-nav-link data-target="projects">Проекты</a>
+          </li>
+          <li class="sidebar__nav-item">
+            <a href="#experience" class="sidebar__nav-link" data-nav-link data-target="experience">Опыт</a>
+          </li>
+          <li class="sidebar__nav-item">
+            <a href="#contacts" class="sidebar__nav-link" data-nav-link data-target="contacts">Контакты</a>
+          </li>
+          <span class="sidebar__indicator" data-indicator aria-hidden="true"></span>
+        </ul>
+      </nav>
+
+      <button class="sidebar__theme-toggle" type="button" data-theme-toggle aria-label="Переключить тему оформления">
+        <span class="sidebar__theme-toggle-track">
+          <span class="sidebar__theme-toggle-thumb"></span>
+        </span>
+        <span class="sidebar__theme-toggle-label" data-theme-label>Светлая</span>
+      </button>
+
+    </div>
+  </header>
+
+  <main class="content">
+
+    <section id="hero" class="section section--hero">
+      <p class="section__eyebrow hero-reveal">Портфолио</p>
+      <h1 class="section__title hero-reveal">Валерия<br><span class="hero__word" data-cycle-word>Верстальщик</span> и фронтенд-разработчик</h1>
+      <p class="section__lead hero-reveal">Верстаю сайты и настраиваю CMS: Bitrix, MODX, WordPress, Tilda, Joomla. Дальше — проекты на React.</p>
+      <div class="hero__marks hero-reveal" aria-hidden="true">
+        <span class="hero__mark-wrap hero__mark-wrap--arc" data-depth="14">
+          <span class="hero__mark hero__mark--arc"></span>
+        </span>
+        <span class="hero__mark-wrap hero__mark-wrap--half" data-depth="24">
+          <span class="hero__mark hero__mark--half"></span>
+        </span>
+        <span class="hero__mark-wrap hero__mark-wrap--dot" data-depth="36">
+          <span class="hero__mark hero__mark--dot"></span>
+        </span>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <div class="marquee__group">
+          <span class="marquee__item">Bitrix</span>
+          <span class="marquee__sep marquee__sep--circle"></span>
+          <span class="marquee__item">MODX</span>
+          <span class="marquee__sep marquee__sep--diamond"></span>
+          <span class="marquee__item">WordPress</span>
+          <span class="marquee__sep marquee__sep--half"></span>
+          <span class="marquee__item">Tilda</span>
+          <span class="marquee__sep marquee__sep--circle"></span>
+          <span class="marquee__item">Joomla</span>
+          <span class="marquee__sep marquee__sep--diamond"></span>
+          <span class="marquee__item">HTML · CSS · JS</span>
+          <span class="marquee__sep marquee__sep--half"></span>
+          <span class="marquee__item">Bitrix</span>
+          <span class="marquee__sep marquee__sep--circle"></span>
+          <span class="marquee__item">MODX</span>
+          <span class="marquee__sep marquee__sep--diamond"></span>
+          <span class="marquee__item">WordPress</span>
+          <span class="marquee__sep marquee__sep--half"></span>
+          <span class="marquee__item">Tilda</span>
+          <span class="marquee__sep marquee__sep--circle"></span>
+          <span class="marquee__item">Joomla</span>
+          <span class="marquee__sep marquee__sep--diamond"></span>
+          <span class="marquee__item">HTML · CSS · JS</span>
+          <span class="marquee__sep marquee__sep--half"></span>
+        </div>
+        <div class="marquee__group" aria-hidden="true">
+          <span class="marquee__item">Bitrix</span>
+          <span class="marquee__sep marquee__sep--circle"></span>
+          <span class="marquee__item">MODX</span>
+          <span class="marquee__sep marquee__sep--diamond"></span>
+          <span class="marquee__item">WordPress</span>
+          <span class="marquee__sep marquee__sep--half"></span>
+          <span class="marquee__item">Tilda</span>
+          <span class="marquee__sep marquee__sep--circle"></span>
+          <span class="marquee__item">Joomla</span>
+          <span class="marquee__sep marquee__sep--diamond"></span>
+          <span class="marquee__item">HTML · CSS · JS</span>
+          <span class="marquee__sep marquee__sep--half"></span>
+          <span class="marquee__item">Bitrix</span>
+          <span class="marquee__sep marquee__sep--circle"></span>
+          <span class="marquee__item">MODX</span>
+          <span class="marquee__sep marquee__sep--diamond"></span>
+          <span class="marquee__item">WordPress</span>
+          <span class="marquee__sep marquee__sep--half"></span>
+          <span class="marquee__item">Tilda</span>
+          <span class="marquee__sep marquee__sep--circle"></span>
+          <span class="marquee__item">Joomla</span>
+          <span class="marquee__sep marquee__sep--diamond"></span>
+          <span class="marquee__item">HTML · CSS · JS</span>
+          <span class="marquee__sep marquee__sep--half"></span>
+        </div>
+      </div>
+    </div>
+
+    <section id="about" class="section section--about" data-num="01">
+      <div class="about">
+        <div class="about__text">
+          <p class="section__eyebrow">01</p>
+          <h2 class="section__title">Обо мне</h2>
+
+          <div class="about__bio" data-placeholder>
+            <p>Замени этот текст на свой — расскажи, как ты работаешь, чем занимаешься каждый день и что для тебя важно в вёрстке и настройке сайтов.</p>
+          </div>
+
+          <div class="about__stats">
+            <div class="about__stat">
+              <span class="about__stat-number">5</span>
+              <span class="about__stat-label">лет в вёрстке</span>
+            </div>
+            <div class="about__stat">
+              <span class="about__stat-number">40+</span>
+              <span class="about__stat-label">проектов</span>
+            </div>
+            <div class="about__stat">
+              <span class="about__stat-number">5</span>
+              <span class="about__stat-label">CMS-платформ</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about__stack">
+          <p class="about__stack-label">Работаю с</p>
+          <ul class="about__stack-grid">
+            <li class="about__chip"><span class="about__chip-dot"></span>Bitrix</li>
+            <li class="about__chip"><span class="about__chip-dot"></span>MODX / MiniShop2</li>
+            <li class="about__chip"><span class="about__chip-dot"></span>WordPress</li>
+            <li class="about__chip"><span class="about__chip-dot"></span>Tilda</li>
+            <li class="about__chip"><span class="about__chip-dot"></span>Joomla</li>
+            <li class="about__chip about__chip--soon"><span class="about__chip-dot"></span>React (скоро)</li>
+          </ul>
+        </div>
+      </div>
+      <div class="shapes shapes--about" aria-hidden="true">
+        <span class="shapes__item shapes__item--1"></span>
+        <span class="shapes__item shapes__item--2"></span>
+        <span class="shapes__item shapes__item--3"></span>
+        <span class="shapes__item shapes__item--4"></span>
+      </div>
+    </section>
+
+    <section id="projects" class="section section--projects" data-num="02">
+      <p class="section__eyebrow">02</p>
+      <h2 class="section__title">Проекты</h2>
+      <p class="section__lead">Работы на разных CMS — от лендингов до каталогов. Скриншоты и часть проектов пока заглушки — замени на свои.</p>
+
+      <div class="projects-grid">
+        <article
+          class="project-card"
+          data-project-card
+          data-title="Мебельная компания на Bitrix"
+          data-meta="Bitrix · лендинг + каталог"
+          data-description="Замени этот текст: какая задача стояла, что сделала ты сама, какие особенности Bitrix пришлось учесть."
+          data-link="https://awebbitrixtest2.gk23.ru/"
+          data-detail="projects/bitrix-furniture.html"
+          data-shots="3"
+          data-images=""
+          tabindex="0"
+          role="button"
+          aria-haspopup="dialog"
+        >
+          <div class="project-card__thumb is-placeholder-media">Скриншот проекта</div>
+          <div class="project-card__body">
+            <h3 class="project-card__title">Мебельная компания</h3>
+            <p class="project-card__meta">Bitrix · лендинг + каталог</p>
+          </div>
+        </article>
+
+        <article
+          class="project-card project-card--empty"
+          data-project-card
+          data-title="Проект 2"
+          data-meta="Платформа · тип проекта"
+          data-description="Замени на описание второго проекта."
+          data-link=""
+          data-detail=""
+          data-shots="2"
+          data-images=""
+          tabindex="0"
+          role="button"
+          aria-haspopup="dialog"
+        >
+          <div class="project-card__thumb is-placeholder-media">Скриншот проекта</div>
+          <div class="project-card__body">
+            <h3 class="project-card__title">Проект 2</h3>
+            <p class="project-card__meta">Добавь свой проект</p>
+          </div>
+        </article>
+
+        <article
+          class="project-card project-card--empty"
+          data-project-card
+          data-title="Проект 3"
+          data-meta="Платформа · тип проекта"
+          data-description="Замени на описание третьего проекта."
+          data-link=""
+          data-detail=""
+          data-shots="2"
+          tabindex="0"
+          role="button"
+          aria-haspopup="dialog"
+        >
+          <div class="project-card__thumb is-placeholder-media">Скриншот проекта</div>
+          <div class="project-card__body">
+            <h3 class="project-card__title">Проект 3</h3>
+            <p class="project-card__meta">Добавь свой проект</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="section section--experience" data-num="03">
+      <p class="section__eyebrow">03</p>
+      <h2 class="section__title">Опыт</h2>
+
+      <ol class="timeline">
+        <li class="timeline__item" data-reveal>
+          <span class="timeline__marker"></span>
+          <p class="timeline__period">Последний год</p>
+          <h3 class="timeline__title">AWEB Systems</h3>
+          <p class="timeline__role" data-placeholder>Должность — впиши</p>
+          <p class="timeline__text" data-placeholder>Замени на 2–3 предложения: чем занималась, какие CMS и задачи, чего добилась.</p>
+        </li>
+
+        <li class="timeline__item timeline__item--earlier" data-reveal>
+          <span class="timeline__marker"></span>
+          <p class="timeline__period">Ранее · 4 года</p>
+          <h3 class="timeline__title" data-placeholder>Место работы или фриланс — впиши</h3>
+          <p class="timeline__text" data-placeholder>Замени на описание: какие проекты и платформы, чему научилась.</p>
+        </li>
+
+        <li class="timeline__item timeline__item--next" data-reveal>
+          <span class="timeline__marker"></span>
+          <p class="timeline__period">Дальше</p>
+          <h3 class="timeline__title">Планы</h3>
+          <p class="timeline__text">Поступление в вуз и проекты на React.</p>
+        </li>
+      </ol>
+      <div class="shapes shapes--experience shapes--flip" aria-hidden="true">
+        <span class="shapes__item shapes__item--1"></span>
+        <span class="shapes__item shapes__item--2"></span>
+        <span class="shapes__item shapes__item--3"></span>
+        <span class="shapes__item shapes__item--4"></span>
+      </div>
+    </section>
+
+    <section id="contacts" class="section section--contacts" data-num="04">
+      <p class="section__eyebrow">04</p>
+      <h2 class="section__title">Контакты</h2>
+      <p class="section__lead">Проще всего связаться в Telegram или по почте.</p>
+
+      <ul class="contacts">
+        <li class="contacts__item" data-reveal>
+          <a class="contacts__link" href="https://t.me/username" target="_blank" rel="noopener">
+            <span class="contacts__label">Telegram</span>
+            <span class="contacts__value" data-placeholder>@username</span>
+            <span class="contacts__arrow" aria-hidden="true">↗</span>
+          </a>
+        </li>
+        <li class="contacts__item" data-reveal>
+          <a class="contacts__link" href="mailto:you@example.com">
+            <span class="contacts__label">Почта</span>
+            <span class="contacts__value" data-placeholder>you@example.com</span>
+            <span class="contacts__arrow" aria-hidden="true">↗</span>
+          </a>
+        </li>
+        <li class="contacts__item" data-reveal>
+          <a class="contacts__link" href="https://github.com/username" target="_blank" rel="noopener">
+            <span class="contacts__label">GitHub</span>
+            <span class="contacts__value" data-placeholder>github.com/username</span>
+            <span class="contacts__arrow" aria-hidden="true">↗</span>
+          </a>
+        </li>
+        <li class="contacts__item" data-reveal>
+          <a class="contacts__link" href="https://hh.ru/resume/your-resume-id" target="_blank" rel="noopener">
+            <span class="contacts__label">Резюме</span>
+            <span class="contacts__value" data-placeholder>hh.ru</span>
+            <span class="contacts__arrow" aria-hidden="true">↗</span>
+          </a>
+        </li>
+        <!-- Телефон — по желанию, раскомментируй и впиши номер:
+        <li class="contacts__item" data-reveal>
+          <a class="contacts__link" href="tel:+70000000000">
+            <span class="contacts__label">Телефон</span>
+            <span class="contacts__value" data-placeholder>+7 000 000-00-00</span>
+            <span class="contacts__arrow" aria-hidden="true">↗</span>
+          </a>
+        </li>
+        -->
+      </ul>
+      <div class="shapes shapes--contacts" aria-hidden="true">
+        <span class="shapes__item shapes__item--1"></span>
+        <span class="shapes__item shapes__item--2"></span>
+        <span class="shapes__item shapes__item--3"></span>
+        <span class="shapes__item shapes__item--4"></span>
+      </div>
+    </section>
+
+  </main>
+
+  <div class="project-modal" data-project-modal aria-hidden="true">
+    <div class="project-modal__overlay" data-modal-close></div>
+    <div class="project-modal__panel" role="dialog" aria-modal="true" aria-labelledby="project-modal-title">
+      <button class="project-modal__close" type="button" data-modal-close aria-label="Закрыть">×</button>
+
+      <div class="project-modal__gallery">
+        <button class="project-modal__nav project-modal__nav--prev" type="button" data-modal-prev aria-label="Предыдущий скриншот">‹</button>
+        <div
+          class="project-modal__shot is-placeholder-media"
+          data-modal-shot
+          data-zoom
+          tabindex="0"
+          role="button"
+          aria-label="Увеличить скриншот"
+        >Скриншот 1</div>
+        <span class="project-modal__zoom-hint" aria-hidden="true"></span>
+        <button class="project-modal__nav project-modal__nav--next" type="button" data-modal-next aria-label="Следующий скриншот">›</button>
+      </div>
+
+      <div class="project-modal__body">
+        <h3 class="project-modal__title" id="project-modal-title" data-modal-title></h3>
+        <p class="project-modal__meta" data-modal-meta></p>
+        <p class="project-modal__description" data-modal-description></p>
+        <div class="project-modal__actions">
+          <a class="btn btn--primary" data-modal-link target="_blank" rel="noopener">Смотреть на сайте</a>
+          <a class="btn" data-modal-detail>Подробнее о проекте</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="lightbox" data-lightbox aria-hidden="true">
+    <div class="lightbox__overlay" data-lightbox-close></div>
+    <button class="lightbox__close" type="button" data-lightbox-close aria-label="Закрыть увеличенный скриншот">×</button>
+    <div class="lightbox__content is-placeholder-media" data-lightbox-content></div>
+  </div>
+
+  <div class="cursor" data-cursor aria-hidden="true"></div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

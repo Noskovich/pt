@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Мебельная компания на Bitrix — проект Валерии</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Manrope:wght@400;500;600;700&family=Unbounded:wght@700;800&family=Playfair+Display:wght@700&family=Caveat:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+  <div class="preloader" data-preloader aria-hidden="true">
+    <span class="preloader__mark"></span>
+  </div>
+
+  <header class="sidebar sidebar--simple" data-sidebar>
+    <div class="sidebar__inner">
+      <a href="../index.html" class="sidebar__logo">
+        <span class="sidebar__logo-mark" aria-hidden="true"></span>
+        <span class="sidebar__logo-text">В.Л.</span>
+      </a>
+      <a href="../index.html#projects" class="sidebar__back">← Все проекты</a>
+      <button class="sidebar__theme-toggle" type="button" data-theme-toggle aria-label="Переключить тему оформления">
+        <span class="sidebar__theme-toggle-track">
+          <span class="sidebar__theme-toggle-thumb"></span>
+        </span>
+        <span class="sidebar__theme-toggle-label" data-theme-label>Светлая</span>
+      </button>
+    </div>
+  </header>
+
+  <main class="content project-page">
+    <a href="../index.html#projects" class="project-page__back">← Все проекты</a>
+
+    <p class="section__eyebrow">Проект</p>
+    <h1 class="section__title">Мебельная компания на Bitrix</h1>
+    <p class="project-page__meta">Bitrix · лендинг + каталог продукции</p>
+
+    <div class="project-page__gallery">
+      <figure class="shot-frame" data-zoom tabindex="0" role="button" aria-label="Увеличить скриншот 1">
+        <div class="shot-frame__window">
+          <div class="shot-frame__bar" aria-hidden="true">
+            <span class="shot-frame__dot"></span><span class="shot-frame__dot"></span><span class="shot-frame__dot"></span>
+          </div>
+          <div class="shot-frame__screen is-placeholder-media">Скриншот 1</div>
+        </div>
+        <figcaption class="shot-frame__caption"><b>01</b>Главная страница</figcaption>
+      </figure>
+      <figure class="shot-frame" data-zoom tabindex="0" role="button" aria-label="Увеличить скриншот 2">
+        <div class="shot-frame__window">
+          <div class="shot-frame__bar" aria-hidden="true">
+            <span class="shot-frame__dot"></span><span class="shot-frame__dot"></span><span class="shot-frame__dot"></span>
+          </div>
+          <div class="shot-frame__screen is-placeholder-media">Скриншот 2</div>
+        </div>
+        <figcaption class="shot-frame__caption"><b>02</b>Каталог</figcaption>
+      </figure>
+      <figure class="shot-frame" data-zoom tabindex="0" role="button" aria-label="Увеличить скриншот 3">
+        <div class="shot-frame__window">
+          <div class="shot-frame__bar" aria-hidden="true">
+            <span class="shot-frame__dot"></span><span class="shot-frame__dot"></span><span class="shot-frame__dot"></span>
+          </div>
+          <div class="shot-frame__screen is-placeholder-media">Скриншот 3</div>
+        </div>
+        <figcaption class="shot-frame__caption"><b>03</b>Карточка товара</figcaption>
+      </figure>
+    </div>
+
+    <div class="project-page__body">
+      <p>Замени этот текст на подробное описание проекта: какая была задача, что сделала ты сама (вёрстка, настройка каталога, шаблоны), какие особенности Bitrix пришлось учитывать.</p>
+      <p>Можно добавить ещё один абзац — например, про результат или отзыв клиента.</p>
+    </div>
+
+    <a class="btn btn--primary" href="https://awebbitrixtest2.gk23.ru/" target="_blank" rel="noopener">Смотреть на сайте</a>
+  </main>
+
+  <div class="lightbox" data-lightbox aria-hidden="true">
+    <div class="lightbox__overlay" data-lightbox-close></div>
+    <button class="lightbox__close" type="button" data-lightbox-close aria-label="Закрыть увеличенный скриншот">×</button>
+    <div class="lightbox__content is-placeholder-media" data-lightbox-content></div>
+  </div>
+
+  <div class="cursor" data-cursor aria-hidden="true"></div>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
